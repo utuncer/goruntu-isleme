@@ -45,3 +45,7 @@ print(resim.size) # 471*840*3 = 1186920
 ```
 
 - Yükseklik, genişlik ve renk kanalı sayısı değerlerinin çarpımıyla gorselin boyutu bulunur.
+
+## OpevCV Koordinat Mantığı
+
+![Koordinat Görüntüsü](https://community.stereolabs.com/uploads/default/original/1X/b5e996d4114fdf303c56f0f396106b20a49cbd7c.png)
