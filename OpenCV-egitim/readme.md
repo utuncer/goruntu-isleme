@@ -4,6 +4,8 @@ https://www.geeksforgeeks.org/opencv-python-tutorial/
 
 https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html
 
+https://abdulsamet-ileri.medium.com/g%C3%B6r%C3%BCnt%C3%BC-filtrelerini-uygulama-ve-kenarlar%C4%B1-alg%C4%B1lama-21d42f194db4
+
 Python Yorumlayıcısı oluştur:
 
 ```bash
