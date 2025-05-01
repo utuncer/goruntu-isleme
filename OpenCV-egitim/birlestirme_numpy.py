@@ -10,6 +10,7 @@ img2=cv2.imread(image2_path)
 img1=cv2.resize(img1,(640,360))
 img2=cv2.resize(img2,(640,360))
 
+#BGR'den GRAY yaptığımız için resim 3 boyutludan 2 boyuluya dönüyor ve numpy ile birleştirme yapamıyoruz ondan dolayı gri resmi tekrar bgr yapıp kullanmamız gerekiyor.
 img1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
 img1 = cv2.cvtColor(img1, cv2.COLOR_GRAY2BGR)
 
