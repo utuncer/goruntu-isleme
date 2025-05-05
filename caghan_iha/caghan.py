@@ -6,7 +6,7 @@ import time
 model = YOLO("caghan_model.pt")
 
 #cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture("test/dronetalon.mp4")
+cap = cv2.VideoCapture("test/dronefight.mp4")
 
 if not cap.isOpened():
     print(f"Hata: Video dosyası açılamadı")

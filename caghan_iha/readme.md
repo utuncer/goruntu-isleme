@@ -1,4 +1,4 @@
-# Kullanılan Algoritmalar
+### Kullanılan Algoritmalar
 
 - TID (Tracking Interaction Detection)
 - PID (Proportional Integral Derivative)
@@ -9,8 +9,26 @@
 - RRT (Rapidly - Exploring Random Tree)
 - PN (Proportional Navigation)
 
-### Sanal Ortama Kütüphane Ekleme
+### Sanal Ortam
+
+Üçüncü parti modülleri sisteminize yüklemeyi sağlayan sistem olan PIP'ı kurmadıysanız kurun
 
 ```bash
-.\.venv\Scripts\activate
+python -m pip install -U pip
+```
+
+```bash
+pip install virtualenv
+```
+
+Sanal ortamın oluşturulacağı yere gir
+
+```bash
+virtualenv venv
+```
+
+Sanal Ortama Kütüphane Ekleme
+
+```bash
+venv\Scripts\activate
 ```
