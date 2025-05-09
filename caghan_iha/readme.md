@@ -76,3 +76,13 @@ sudo apt update
 ```bash
 sudo apt install -y libgtk2.0-dev libgl1-mesa-glx
 ```
+
+Kütüphaneleri requirements.txt dosyasına yazdırmak
+
+```bash
+pip freeze > requirements.txt
+```
+requirements.txt dosyasından kütüphane kurmak
+```bash
+pip install -r requirements.txt
+```
