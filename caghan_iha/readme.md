@@ -57,25 +57,6 @@ Sanal Ortama Kütüphane Ekleme
 ```bash
 source venv/bin/activate
 ```
-Gerekli Kütüphaneler
-
-```bash
-pip install numpy
-```
-
-```bash
-pip install ultralytics
-```
-OpenCV'de imshow gibi komutlar için GUI kütühaneleri gereklidir
-```bash
-pip install opencv-python
-```
-```bash
-sudo apt update
-```
-```bash
-sudo apt install -y libgtk2.0-dev libgl1-mesa-glx
-```
 
 Kütüphaneleri requirements.txt dosyasına yazdırmak
 
